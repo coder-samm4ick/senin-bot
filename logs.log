@@ -1,0 +1,15 @@
+2026-06-09 22:49:51,879 | INFO | Start polling
+2026-06-09 22:49:52,491 | INFO | Run polling for bot @TestZicoBot id=8688689392 - 'Testzicobot'
+2026-06-09 22:49:54,997 | ERROR | TelegramBadRequest | Telegram server says - Bad Request: message to delete not found
+2026-06-09 22:49:54,997 | INFO | Update id=584725934 is handled. Duration 952 ms by bot id=8688689392
+2026-06-09 22:52:21,283 | INFO | Polling stopped
+2026-06-09 22:52:21,539 | INFO | Polling stopped for bot @TestZicoBot id=8688689392 - 'Testzicobot'
+2026-06-09 22:52:25,521 | INFO | Start polling
+2026-06-09 22:52:25,979 | INFO | Run polling for bot @TestZicoBot id=8688689392 - 'Testzicobot'
+2026-06-09 22:52:28,878 | ERROR | TelegramBadRequest | check_response() | line 121 | Telegram server says - Bad Request: message to delete not found
+2026-06-09 22:52:28,878 | INFO | Update id=584725935 is handled. Duration 639 ms by bot id=8688689392
+2026-06-09 23:01:46,949 | ERROR | Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2026-06-09 23:01:46,960 | WARNING | Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 8688689392)
+2026-06-09 23:01:58,614 | INFO | Connection established (tryings = 1, bot id = 8688689392)
+2026-06-09 23:44:12,333 | INFO | Polling stopped
+2026-06-09 23:44:12,634 | INFO | Polling stopped for bot @TestZicoBot id=8688689392 - 'Testzicobot'
