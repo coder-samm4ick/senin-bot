@@ -1,7 +1,7 @@
 from sqlalchemy import select, or_
 from sqlalchemy.ext.asyncio import AsyncSession
 from .models import User, Deal, Workers
-from .connect import session, Base, engine
+from .connect import Base, engine, async_session_factory
 
 async def create_tables():
     async with engine.begin() as conn:
