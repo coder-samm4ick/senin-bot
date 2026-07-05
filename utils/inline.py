@@ -1,6 +1,6 @@
 # utils/keyboards.py
 from aiogram.utils.keyboard import InlineKeyboardBuilder
-from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CopyTextButton
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import config as cfg
 
@@ -119,12 +119,11 @@ def deal_back_amount():
 
 def referral_menu(url):
     keyboard = InlineKeyboardBuilder()
-    
-    keyboard.button(text="Скопировать Реф. ссылку", copy_text=CopyTextButton(text=url))
+    # Используем switch_inline_query_current_chat или просто url
+    keyboard.button(text="Скопировать Реф. ссылку", url=url)
     keyboard.button(text="Назад в меню", callback_data="main_menu", icon_custom_emoji_id="5960671702059848143")
     keyboard.adjust(1)
     return keyboard.as_markup()
-
 
 def deal_role():
     keyboard = InlineKeyboardBuilder()
