@@ -1,9 +1,0 @@
-services:
-  - type: web
-    name: mrkt-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python skam.py
-    envVars:
-      - key: BOT_TOKEN
-        sync: false
